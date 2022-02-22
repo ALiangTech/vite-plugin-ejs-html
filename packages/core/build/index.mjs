@@ -8,7 +8,8 @@ const inputOption = {
 };
 const outputOption = {
     file: '../../bin/index.js',
-    format: 'esm',
+    format: 'umd',
+    name: 'ejsHtmlPlugin'
 };
 
 async function build () {
