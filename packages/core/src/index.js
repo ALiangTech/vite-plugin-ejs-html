@@ -1,4 +1,4 @@
-import * as ejs from 'ejs'
+import ejs from 'ejs/lib/ejs.js'
 export default function ejsHtmlPlugin (data, options = {}) {
     return {
         name: 'html-transform',
